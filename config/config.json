@@ -1,1 +1,19 @@
-{}
+{
+  "theme": {
+
+    "slug": "melodyjohner",
+
+    "name": "Mélody Johner",
+
+    "author": "John Robert-Nicoud | 6clicks.ch"
+
+    },
+    "dev": {
+      "browserSync": {
+        "live": true,
+        "proxyURL": "melodyjohner.local",
+        "bypassPort": "8181",
+        "https": true
+      }
+    }
+}

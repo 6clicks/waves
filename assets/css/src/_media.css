@@ -42,7 +42,6 @@ object {
 }
 
 @media (--content-query) {
-
 	.wp-caption.alignright,
 	.wp-block-image.alignright {
 		margin-right: calc((100% - var(--content-width)) / 2);
@@ -52,12 +51,12 @@ object {
 	.wp-block-image.alignleft {
 		margin-left: calc((100% - var(--content-width)) / 2);
 	}
-
 }
 
 /*--------------------------------------------------------------
 ## Galleries (Legacy)
 --------------------------------------------------------------*/
+
 .gallery {
 	margin-bottom: 1.5em;
 	display: grid;
@@ -66,7 +65,6 @@ object {
 }
 
 @media screen and (min-width: 40em) {
-
 	.gallery-columns-2 {
 		grid-template-columns: repeat(2, 1fr);
 	}
