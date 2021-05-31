@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+special social nav ..
+--------------------------------------------------------------*/
+
+.facebook-menu a {
+	font-size: 1px;
+}
+
+.facebook-menu a::before {
+	content: "";
+	width: 23px;
+	height: 23px;
+	top: 10px;
+	background-image: url(../images/facebook.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: block;
+}
+
+.insta-menu a {
+	font-size: 1px;
+}
+
+.insta-menu a::before {
+	content: "";
+	width: 23px;
+	height: 23px;
+	top: 10px;
+	background-image: url(../images/instagram.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: block;
+}

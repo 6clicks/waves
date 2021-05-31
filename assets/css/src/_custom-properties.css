@@ -10,8 +10,8 @@
 	--dropdown-symbol-width: 0.7em;
 
 	/* Typography */
-	--global-font-family: "Crimson Text", serif;
-	--highlight-font-family: "Roboto Condensed", "Helvetica Neue";
+	--global-font-family: "Work Sans", serif;
+	--highlight-font-family: "Playfair Display", "Helvetica Neue";
 	--global-font-size: 20;
 	--global-font-line-height: 1.4;
 
@@ -22,20 +22,20 @@
 	--font-size-larger: calc(48 / var(--global-font-size) * 1rem);
 
 	/* Colors */
-	--global-font-color: #333;
-	--border-color-dark: #333;
-	--border-color-light: #ccc;
-	--color-link: #0073aa;
-	--color-link-visited: #333;
-	--color-link-active: #00a0d2;
-	--color-quote-border: #000;
+	--global-font-color: #46665a;
+	--border-color-dark: #46665a;
+	--border-color-light: #fff;
+	--color-link: #46665a;
+	--color-link-visited: #46665a;
+	--color-link-active: #46665a;
+	--color-quote-border: #fff;
 	--color-quote-citation: #6c7781;
 
 	/* Custom editor colors */
-	--color-theme-primary: #e36d60;
-	--color-theme-secondary: #41848f;
+	--color-theme-primary: #46665a;
+	--color-theme-secondary: #f5f3e9;
 	--color-theme-red: #c0392b;
-	--color-theme-green: #27ae60;
+	--color-theme-green: #46665a;
 	--color-theme-blue: #2980b9;
 	--color-theme-yellow: #f1c40f;
 	--color-theme-black: #1c2833;

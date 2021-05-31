@@ -17,7 +17,6 @@
 --------------------------------------------------------------*/
 
 @import "_blocks.css";
-
 @import "_media.css";
 
 /*--------------------------------------------------------------
@@ -78,12 +77,25 @@
 .page-header,
 .entry-header,
 .entry-footer,
-.site-info,
 .post-navigation,
 .page-navigation,
 .comments-area {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
+}
+
+.site-info {
+	margin-top: 1.5em;
+	margin-bottom: 0.2em;
+}
+
+.site-info.left {
+	margin-left: 1.5em;
+}
+
+.site-info.right {
+	margin-right: 1.5em;
+
 }
 
 .page-content > *,
@@ -92,7 +104,6 @@
 .page-header,
 .entry-header,
 .entry-footer,
-.site-info,
 .post-navigation,
 .page-navigation,
 .comments-area {
@@ -211,7 +222,6 @@
 		margin-right: calc((100vw - var(--content-width)) / 2);
 	}
 }
-
 @media (--sidebar-query) {
 	.has-sidebar .page-content > .alignleft,
 	.has-sidebar .entry-content > .alignleft,

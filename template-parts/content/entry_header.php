@@ -8,8 +8,15 @@
 namespace WP_Rig\WP_Rig;
 
 ?>
+<?php
+// Use grid layout if blog index is displayed.
+if ( is_front_page() ) {
+	echo '';
+} else {
+	?>
 
 <header class="entry-header">
+
 	<?php
 	get_template_part( 'template-parts/content/entry_title', get_post_type() );
 
@@ -19,4 +26,6 @@ namespace WP_Rig\WP_Rig;
 		get_template_part( 'template-parts/content/entry_thumbnail', get_post_type() );
 	}
 	?>
+
 </header><!-- .entry-header -->
+	<?php } ?>

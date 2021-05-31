@@ -151,6 +151,8 @@ class Theme {
 			new Post_Thumbnails\Component(),
 			new Customizer\Component(),
 			new Styles\Component(),
+			new GSAP\Component(),
+			new ACF\Component(),
 		);
 
 		if ( defined( 'JETPACK__VERSION' ) ) {

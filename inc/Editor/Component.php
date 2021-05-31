@@ -64,32 +64,12 @@ class Component implements Component_Interface {
 				array(
 					'name'  => __( 'Primary', 'wp-rig' ),
 					'slug'  => 'theme-primary',
-					'color' => '#e36d60',
+					'color' => '#46665a',
 				),
 				array(
 					'name'  => __( 'Secondary', 'wp-rig' ),
 					'slug'  => 'theme-secondary',
-					'color' => '#41848f',
-				),
-				array(
-					'name'  => __( 'Red', 'wp-rig' ),
-					'slug'  => 'theme-red',
-					'color' => '#C0392B',
-				),
-				array(
-					'name'  => __( 'Green', 'wp-rig' ),
-					'slug'  => 'theme-green',
-					'color' => '#27AE60',
-				),
-				array(
-					'name'  => __( 'Blue', 'wp-rig' ),
-					'slug'  => 'theme-blue',
-					'color' => '#2980B9',
-				),
-				array(
-					'name'  => __( 'Yellow', 'wp-rig' ),
-					'slug'  => 'theme-yellow',
-					'color' => '#F1C40F',
+					'color' => '#f5f3e9',
 				),
 				array(
 					'name'  => __( 'Black', 'wp-rig' ),
@@ -105,16 +85,6 @@ class Component implements Component_Interface {
 					'name'  => __( 'White', 'wp-rig' ),
 					'slug'  => 'theme-white',
 					'color' => '#ECF0F1',
-				),
-				array(
-					'name'  => __( 'Dusty daylight', 'wp-rig' ),
-					'slug'  => 'custom-daylight',
-					'color' => '#97c0b7',
-				),
-				array(
-					'name'  => __( 'Dusty sun', 'wp-rig' ),
-					'slug'  => 'custom-sun',
-					'color' => '#eee9d1',
 				),
 			)
 		);

@@ -1,0 +1,6 @@
+.sbi_item {
+	border-left: 3px solid var(--color-theme-primary);
+	border-top: 6px solid var(--color-theme-primary);
+	border-right: 3px solid var(--color-theme-primary);
+	border-bottom: 6px solid var(--color-theme-primary);
+}

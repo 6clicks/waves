@@ -58,8 +58,15 @@ blockquote {
 	margin-left: 1.5rem;
 }
 
-@media (--content-query) {
+.left {
+	text-align: left;
+}
 
+.right {
+	text-align: right;
+}
+
+@media (--content-query) {
 	.entry-content > blockquote {
 		margin-left: auto;
 	}
