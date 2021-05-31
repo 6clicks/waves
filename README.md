@@ -1,3 +1,5 @@
+Seutp for Using WP Rig with " ACF " and "GREEN SOCK" .. ready to go ...
+
 <img align="right" width="90" height="90"
      src="https://avatars1.githubusercontent.com/u/38340689"
      title="WP Rig logo by Morten Rand-Hendriksen">
