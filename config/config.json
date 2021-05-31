@@ -1,7 +1,7 @@
 {
   "theme": {
 
-    "slug": "melodyjohner",
+    "slug": "Wavetheme",
 
     "name": "Mélody Johner",
 
@@ -11,7 +11,7 @@
     "dev": {
       "browserSync": {
         "live": true,
-        "proxyURL": "melodyjohner.local",
+        "proxyURL": "wave.local",
         "bypassPort": "8181",
         "https": true
       }
